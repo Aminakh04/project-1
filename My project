@@ -1,0 +1,35 @@
+# project-1
+Quiz
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sloar System_Quiz</title>
+    <link rel="stylesheet" type="text/css" href="proj css.css" />
+</head>
+<body>
+    <h1 id="title"><i> What Do You Know About Our Solar System!</i></h1>
+  <div class="name"> <h3><i> Created By Amina El Kharraz</i></h3></div> 
+       
+      
+               
+    
+           <a href="file:///Users/Mac0/Downloads/Materials/W01L02/game.html" class="btn1">Let's know now</a>
+           
+       </div>
+    </div>
+    
+      <!--  <div class="bg-music">
+           <audio  src="Tobu - Hope [NCS Release] (192 kbps) (mp3cut.net).mp3.mp3" loop="" ></audio>
+           <button class="btn3">
+               <i class="fa fa-play-circle-o"></i>
+               <i class="fa fa-pause-circle-o"></i>
+           </button>
+       </div>-->
+       
+      
+
+</body>
+</html>
