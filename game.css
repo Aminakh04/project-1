@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+}
+body{
+    background-image: url("https://image.freepik.com/free-vector/planets-solar-system-background_1308-31498.jpg");
+    background-size: cover;
+     height: 100%;
+     width: 100vh;
+}  
+
+  
+  .container {
+    height: 200px;
+    width: 1000px;
+    text-align: center;
+    font-size: larger;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    position: relative;
+    top: 120px;
+    font-weight: bold;
+    color: #1D2F53;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    height: 40px;
+    width: 230px;
+    border: 10px solid hsl(var(--hue), 100%, 60%);
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    color: #1D2F53;
+    outline: none;
+    font-size: large;
+    position: relative;
+    left: 50px;
+
+   
+   
+  }
+  
+  .btn:hover {
+    border-color: black;
+  }
+  
+  .btn.correct {
+      background-color: green;
+    color: white;
+  }
+  
+  .btn.wrong {
+      background-color:#E22727;
+   color: white;
+  }
+  
+  .start-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: relative;
+    left: -10px;
+    top: 50px;
+  }
+  .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: relative;
+    left: -8px;
+    top: -10px;
+
+}
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  .name{
+    font-size: -30px;
+    color: white;
+    position: relative;
+    left: 700px;
+    top: 670px;
+   
+}
